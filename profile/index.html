@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav id="nav">
+    <div class="brand">
+      <a href="../index.html">MeShop.</a>
+    </div>
+    <div class="nav-items">
+      <a href="../index.html">Home</a>
+      <a href="../login/index.html">Login</a>
+      <a href="../signup/index.html">Signup</a>
+      <a href="../shop/index.html">Shop</a>
+      <a href="../cart/index.html">My Cart</a>
+      <a href="../profile/index.html">Profile</a>
+    </div>
+  </nav>
+
+  <div id="container">
+    <div class="text">My Profile</div>
+    <form id="editMyProfile">
+        <input type="text" placeholder="first Name" id="first-name">
+        <input type="text" placeholder="last Name" id="last-name">
+        <p class="errorMsg"></p>
+        <button type="submit" id="save-info" class="btn">Save Info</button>
+        
+    </form>
+      <div class="text">Edit Password</div>
+      <form id="EditPass">
+        <input type="password" placeholder="Old Password" id="oldPass">
+        <input type="password" placeholder="New Password" id="newPass">
+        <input type="password" placeholder="Confirm New password" id="conPass">
+        <p class="errorMsg1"></p>
+        <button type="submit" id="Change-pass" class="btn">Change Password</button>
+        
+      </form>
+
+      <button type="submit" id="logout" class="btn">Logout</button>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+    padding: 0;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    font-family: "Inter", sans-serif;
+    
+    
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+
+}
+#nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+ a{
+    margin-left: 16px;
+    color: white;
+    text-decoration: none;
+}
+.login-text {
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0.5rem;
+}
+#container {
+    margin-top: 2rem;
+}
+
+input {
+    width:95%;
+    margin: 0.5rem;
+    margin-right: 0;
+    padding: 10px;
+}
+input:focus {
+    outline: none;
+}
+#login {
+    border: 1px solid  #000000;
+    background-color: black;
+    padding: 0.5rem 2rem;
+    color: white;
+    margin: 0.5rem;
+    cursor: pointer;
+    
+}
+#login:hover {
+    border: 1px solid  #000000;
+    background-color: white;
+    padding: 0.5rem 2rem;
+    color:  #000000;
+}
+
+#errorMsg {
+    font-size: 20px; 
+    font-weight: 400; 
+    margin: 0.5rem;
+    }
